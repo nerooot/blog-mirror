@@ -27,4 +27,8 @@ export const SOCIALS: Socials = [
     NAME: "github",
     HREF: "https://github.com/nerooot",
   },
+  {
+    NAME: "codeberg",
+    HREF: "https://codeberg.org/Neroot",
+  },
 ];
