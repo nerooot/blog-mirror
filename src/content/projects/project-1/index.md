@@ -4,7 +4,7 @@ description: "un pequeño blog hechc con astro.js"
 date: "Jan 8 2026"
 ---
 
-<img src="/img/cat.webp" alt="theme preview" fetchpriority="high">
+![cat](/img/cat.webp)
 
 
 ## ¿por qué?

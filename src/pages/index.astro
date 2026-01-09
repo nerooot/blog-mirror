@@ -97,7 +97,7 @@ const projects = (await getCollection("projects"))
                             <li class="flex gap-x-2 text-nowrap">
                                 <Link
                                     href={SOCIAL.HREF}
-                                    external
+                                    external={true}
                                     aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}
                                 >
                                     {SOCIAL.NAME}
