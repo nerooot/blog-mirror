@@ -9,22 +9,32 @@ export function formatDate(date: Date) {
   return Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "2-digit",
-    year: "numeric"
+    year: "numeric",
   }).format(date);
 }
 
 export function readingTime(html: string) {
-  const textOnly = html.replace(/<[^>]+>/g, "");
-  const wordCount = textOnly.split(/\s+/).length;
-  const readingTimeMinutes = ((wordCount / 200) + 1).toFixed();
+  let textOnly = html;
+  let previous: string;
+
+  do {
+    previous = textOnly;
+    textOnly = textOnly.replace(/<[^>]+>/g, "");
+  } while (textOnly !== previous);
+
+  const wordCount = textOnly.trim().split(/\s+/).filter(Boolean).length;
+
+  if (wordCount === 0) return "0 min read";
+
+  const readingTimeMinutes = Math.ceil(wordCount / 200);
   return `${readingTimeMinutes} min read`;
 }
 
 export function dateRange(startDate: Date, endDate?: Date | string): string {
   const startMonth = startDate.toLocaleString("default", { month: "short" });
   const startYear = startDate.getFullYear().toString();
-  let endMonth;
-  let endYear;
+  let endMonth: string = "";
+  let endYear: string = "";
 
   if (endDate) {
     if (typeof endDate === "string") {
