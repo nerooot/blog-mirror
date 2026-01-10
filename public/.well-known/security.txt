@@ -1,4 +1,4 @@
-Contact: mailto:hifrommail@proton.me
+Contact: mailto:nerooot@tutamail.com
 Expires: 2027-01-01T00:00:00.000Z
-Preferred-Languages: es, en
+Preferred-Languages: es
 Canonical: https://neroot.netlify.app/.well-known/security.txt
