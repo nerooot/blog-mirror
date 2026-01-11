@@ -1,4 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Contact: mailto:nerooot@tutamail.com
 Expires: 2027-01-01T00:00:00.000Z
 Preferred-Languages: es
 Canonical: https://neroot.netlify.app/.well-known/security.txt
+Encryption: https://neroot.netlify.app/gpg.asc
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE/Kdql1aJdZ61HrWXJ5DSz6lkgdMFAmli79wACgkQJ5DSz6lk
+gdP6cxAA2ob5jr+zCjqhXewDsUUi7sZGuxebHGVdAfCpadOpWi0fmTUw9Xz27/kG
+m7/l8t/xvL2X55IKS5uJ1Koirq6qgb9CdhbDY7vN6gwT354YopyAyRoTF2Vjy2dl
+mf4B//1Tjy1OxnL0f3W9sh0ax6c6Mnqo7lGN/f3fzdUy4ht+X8cFjvYP2/GUsp7a
+MUWyZsmEP52HbQdjGY+1LGAVDjjswgVRxJJ0ZkvIolBX9NGz9hm3jBP0FkUgNHlF
+Ayh4UzRN5dktSK0ii9ijn7xgkH5dQSqslPydQW72jPY5b/mZpKqF8UE7TNd01X6o
+vKPzMfHR9A3LfmaweerFjjYT0H2lyJupkj1rYrGewxtqTUHW9YXKLhTN9lWMjr6l
+L3F9YQM1a3rCSe9VKANoQzRH9NWxUuKzAftIG36Krwwe1sv9eVjallVCYHm+dYNw
+SVycfInFF98dWI2TjFbAZh6y/hEusMG4pnnqnbXmkZEUQQtuNqxcFZRrivZRrf9b
+slZ7OCtLN+Bcd9Pck/3oxpzzsvqYMsBzua762JD/fkMfQjEK246hsf/ox3vq9XJC
+Lj/g/XnxwqlMUaykLZagOv8/KT1AvhWV4zrQbknOCfQlaU23YaikRnfPVVwq8bC6
+zaD+3PwuIKkneMZkB8X7s8JUKjKuY6uR1D053b8ZQ8UuKCCfzV4=
+=w8m1
+-----END PGP SIGNATURE-----
