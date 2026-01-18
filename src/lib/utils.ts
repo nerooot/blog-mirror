@@ -14,20 +14,16 @@ export function formatDate(date: Date) {
 }
 
 export function readingTime(html: string) {
-  let textOnly = html;
-  let previous: string;
+  if (typeof html !== "string") return "0 min read";
 
-  do {
-    previous = textOnly;
-    textOnly = textOnly.replace(/<[^>]+>/g, "");
-  } while (textOnly !== previous);
+  const textOnly = html.replace(/<[^>]+>/g, " ").trim();
 
-  const wordCount = textOnly.trim().split(/\s+/).filter(Boolean).length;
+  if (!textOnly) return "0 min read";
 
-  if (wordCount === 0) return "0 min read";
-
+  const wordCount = textOnly.split(/\s+/).filter(Boolean).length;
   const readingTimeMinutes = Math.ceil(wordCount / 200);
-  return `${readingTimeMinutes} min read`;
+
+  return `~${readingTimeMinutes} min read`;
 }
 
 export function dateRange(startDate: Date, endDate?: Date | string): string {
