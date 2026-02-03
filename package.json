@@ -34,7 +34,7 @@
     "astro-eslint-parser": "^1.2.2",
     "eslint": "^9.39.2",
     "eslint-plugin-astro": "^0.32.0",
-    "globals": "^17.2.0",
+    "globals": "^17.3.0",
     "typescript-eslint": "^8.54.0"
   }
 }
