@@ -36,5 +36,10 @@
     "eslint-plugin-astro": "^0.32.0",
     "globals": "^17.3.0",
     "typescript-eslint": "^8.54.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "lodash": "^4.17.21"
+    }
   }
 }
